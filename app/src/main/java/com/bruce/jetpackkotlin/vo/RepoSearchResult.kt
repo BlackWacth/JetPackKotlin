@@ -1,5 +1,6 @@
 package com.bruce.jetpackkotlin.vo
 
+import androidx.room.Entity
 import androidx.room.PrimaryKey
 import androidx.room.TypeConverters
 import com.bruce.jetpackkotlin.db.GithubTypeConverters
@@ -12,6 +13,7 @@ import com.bruce.jetpackkotlin.db.GithubTypeConverters
  * description：
  *
  **/
+@Entity
 @TypeConverters(GithubTypeConverters::class)
 data class RepoSearchResult (
 

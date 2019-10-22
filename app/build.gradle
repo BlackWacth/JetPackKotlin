@@ -61,6 +61,7 @@ dependencies {
 
     implementation deps.timber
 
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     kapt deps.dagger.android_support_compiler
     kapt deps.dagger.compiler
     kapt deps.room.compiler

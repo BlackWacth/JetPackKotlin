@@ -1,5 +1,6 @@
 package com.bruce.jetpackkotlin.vo
 
+import androidx.room.Entity
 import androidx.room.PrimaryKey
 import com.google.gson.annotations.SerializedName
 
@@ -12,6 +13,7 @@ import com.google.gson.annotations.SerializedName
  *
  **/
 
+@Entity
 data class User(
 
     @PrimaryKey
